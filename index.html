@@ -14,13 +14,25 @@
 <div class="container login-container">
     <div class="row">
         <div class="col-md-6 offset-md-3 login-form-1">
-            <h3>Login for Form 1</h3>
-            <form>
+            <h3>Register Form</h3>
+            <hr>
+            <hr>
+            <form id="form">
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Your Email *" value="" />
+                    <input type="text" class="form-control" placeholder="User name" id="username" />
+                    <small>Error Message</small>
                 </div>
                 <div class="form-group">
-                    <input type="password" class="form-control" placeholder="Your Password *" value="" />
+                    <input type="text" class="form-control" placeholder="Your Email *" value="" id="email"/>
+                    <small>Error Message</small>
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Your Password *" value="" id="password" />
+                    <small>Error Message</small>
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Confirm Password" id="confirm-password"/>
+                    <small>Error Message</small>
                 </div>
                 <div class="form-group">
                     <input type="submit" class="btnSubmit" value="Login" />
@@ -36,5 +48,6 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="script.js" />
 </body>
 </html>
